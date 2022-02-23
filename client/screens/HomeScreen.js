@@ -125,11 +125,11 @@ const Home = () => {
                 color: '#71b79c',
               }}
             >
-              Hi! Welcome to Plant Safe
+              Hi! Welcome to Molemi
             </Text>
             <View style={styles.innerCard}>
               <Text style={{ padding: 10, fontSize: 18 }}>
-                What is Plant Safe?
+                What is Molemi?
               </Text>
               <View style={{ paddingLeft: 10 }}>
                 <Text style={{ padding: 8, fontSize: 16 }}>
