@@ -128,25 +128,16 @@ const Home = () => {
               Hi! Welcome to Molemi
             </Text>
             <View style={styles.innerCard}>
-              <Text style={{ padding: 10, fontSize: 18 }}>
-                What is Molemi?
-              </Text>
+              <Text style={{ padding: 10, fontSize: 18 }}>What is Molemi?</Text>
               <View style={{ paddingLeft: 10 }}>
-                <Text style={{ padding: 8, fontSize: 16 }}>
+                <Text style={{ padding: 8, fontSize: 16, textAlign: 'justify' }}>
                   <Entypo name='tree' size={18} color='#4c5a55' />
                   {'    '}
-                  Lorem ipsum dolor sit amet, consec adipiscing elit.
+                  Molemi App Is A Plant Disease Detection Mobile Application
+                  That Aids To Assist Farmers In Detecting Plant Disease And
+                  Recommending Treatment.
                 </Text>
-                <Text style={{ padding: 8, fontSize: 16 }}>
-                  <Entypo name='tree' size={18} color='#4c5a55' />
-                  {'    '}
-                  Lorem ipsum dolor sit amet, consec adipiscing elit.
-                </Text>
-                <Text style={{ padding: 8, fontSize: 16 }}>
-                  <Entypo name='tree' size={18} color='#4c5a55' />
-                  {'    '}
-                  Lorem ipsum dolor sit amet, consec adipiscing elit.
-                </Text>
+               
               </View>
             </View>
             <View>

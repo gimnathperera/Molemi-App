@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Heartsafe",
-    "slug": "Heartsafe",
+    "name": "Molemi",
+    "slug": "Molemi",
     "privacy": "public",
     "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
@@ -21,7 +21,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.uvote.app",
+      "package": "com.molemi.app",
       "versionCode": 1
     }
   }
