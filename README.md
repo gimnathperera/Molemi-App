@@ -32,23 +32,36 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-NPM / Yarn and Node.js installed
-Expo-CLI installed
+- NPM / Yarn and Node.js installed
+- Expo-CLI installed
+- python installed
+- Anaconda installed
 
-### Installing
+### Installing the client app
 
 Installing NPM modules
 
-Execute these commands from the project directory
+Execute these commands from the client directory
 
 ```
 npm install
 ```
 
-### Running the app
+### Running the client app
 
-and open another terminal on root directory
+and open another terminal on client directory
 ```
 expo start
 ```
 
+### Installing the client app
+Open another terminal on server directory
+```
+conda create -n venv python=3.7
+conda activate venv
+conda install [dependencies]
+```
+### Running the server app
+```
+python app.py
+```
